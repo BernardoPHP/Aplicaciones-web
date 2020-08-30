@@ -20,8 +20,20 @@ class Datos{
 
     }
 
-    public function cuenta(){
-
+    public function cuenta($x){
+      $c=0;
+      //Genera el numero que se contara(1s, 2s, 3s,...)
+      for ($i=0; $i <= 50; $i++) {
+        //recorre el array contando
+        $k=0;
+        for ($j=0; $j < sizeof(x) ; $j++) {
+          if(x[j]==i)
+          {
+            //cuenta los numeros
+            $c=$c+1;
+          }
+          echo " $i s: $c";
+          $c=0;
     }
 
     public function medVar(){
